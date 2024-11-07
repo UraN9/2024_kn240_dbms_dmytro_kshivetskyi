@@ -1,0 +1,41 @@
+```sql
+create database Militarydatabase;
+
+use Militarydatabase;
+
+-- 1. Створив ролі та призначив їм привілеї:
+CREATE ROLE admin_role;
+CREATE ROLE developer_role;
+CREATE ROLE analyst_role;
+
+-- 2. Створив користувачів з паролями та призначив їм відповідні ролі:
+CREATE USER 'admin_user'@'localhost' IDENTIFIED BY 'aP7!vYb9';
+CREATE USER 'dev_user'@'localhost' IDENTIFIED BY 'fT3!dJ0';
+CREATE USER 'analyst_user'@'localhost' IDENTIFIED BY 'G4!pQm1';
+CREATE USER 'guest_user'@'localhost' IDENTIFIED BY 'Xr2@wD6';
+
+-- 3. Призначення ролей користувачам
+GRANT 'admin_role' TO 'admin_user'@'localhost';
+GRANT 'developer_role' TO 'dev_user'@'localhost';
+GRANT 'analyst_role' TO 'analyst_user'@'localhost';
+
+-- 4. Надав користувачу guest_user права на читання таблиці targets
+GRANT SELECT ON Militarydatabase.targets TO 'guest_user'@'localhost';
+
+-- 5. Відкликав права на створення таблиць для dev_user 
+GRANT CREATE ON military.* TO 'developer_role';
+REVOKE CREATE ON military.* FROM 'developer_role';
+
+-- 6. У таблиці ammo надав analyst_user права на перегляд id, ammo_type, caliber
+
+CREATE VIEW ammo_view AS
+SELECT id, ammo_type, caliber
+FROM ammo;
+
+GRANT SELECT ON Militarydatabase.ammo_view TO 'analyst_user'@'localhost';
+
+
+SELECT user, host FROM mysql.user;
+SHOW GRANTS FOR 'admin_user'@'localhost';
+
+```
