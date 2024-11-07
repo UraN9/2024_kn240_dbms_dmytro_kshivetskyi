@@ -2,7 +2,7 @@
 --
 -- Host: 127.0.0.1    Database: militarydatabase
 -- ------------------------------------------------------
--- Server version	8.0.39
+-- Server version	8.0.40
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -52,6 +52,20 @@ LOCK TABLES `ammo` WRITE;
 INSERT INTO `ammo` VALUES (1,'high-explosive fragmentation',17.00,'mortar shell',120,21,11,0),(2,'high-explosive fragmentation',17.00,'mortar shell',120,21,11,0),(3,'high-explosive fragmentation',16.00,'mortar shell',120,21,11,0),(4,'high-explosive fragmentation',17.00,'mortar shell',120,21,11,0),(5,'high-explosive fragmentation',16.00,'mortar shell',120,21,11,0),(6,'high-explosive fragmentation',17.00,'mortar shell',120,21,11,0),(7,'high-explosive fragmentation',17.00,'mortar shell',120,22,12,0),(8,'high-explosive fragmentation',16.00,'mortar shell',120,22,12,0),(9,'high-explosive fragmentation',17.00,'mortar shell',120,22,12,0),(10,'high-explosive fragmentation',17.00,'mortar shell',120,22,12,0),(11,'high-explosive fragmentation',17.00,'mortar shell',120,22,12,0),(12,'high-explosive fragmentation',17.00,'mortar shell',120,22,12,0),(13,'high-explosive fragmentation',17.00,'mortar shell',120,23,13,0),(14,'high-explosive fragmentation',17.00,'mortar shell',120,23,13,0),(15,'high-explosive fragmentation',16.00,'mortar shell',120,23,13,0),(16,'high-explosive fragmentation',17.00,'mortar shell',120,23,13,0),(17,'high-explosive fragmentation',17.00,'mortar shell',120,23,13,0),(18,'high-explosive fragmentation',17.00,'mortar shell',120,23,13,0),(19,'smoke',15.00,'M933D',120,21,11,0),(20,'smoke',15.00,'M933D',120,21,11,0),(21,'smoke',15.00,'M933D',120,21,11,0),(22,'smoke',15.00,'M933D',120,21,11,0),(23,'smoke',15.00,'M933D',120,21,11,0),(24,'smoke',15.00,'M933D',120,22,12,0),(25,'smoke',15.00,'M933D',120,22,12,0),(26,'smoke',15.00,'M933D',120,22,12,0),(27,'smoke',15.00,'M933D',120,22,12,0),(28,'smoke',15.00,'M933D',120,22,12,0),(29,'smoke',15.00,'M933D',120,23,13,0),(30,'smoke',15.00,'M933D',120,23,13,0),(31,'smoke',15.00,'M933D',120,23,13,0),(32,'smoke',15.00,'M933D',120,23,13,0),(33,'smoke',15.00,'M933D',120,23,13,0),(34,'light',10.00,'MOD63',120,21,11,0),(35,'light',10.00,'MOD63',120,21,11,0),(36,'light',10.00,'MOD63',120,21,11,0),(37,'light',10.00,'MOD63',120,21,11,0),(38,'light',10.00,'MOD63',120,22,12,0),(39,'light',10.00,'MOD63',120,22,12,0),(40,'light',10.00,'MOD63',120,22,12,0),(41,'light',10.00,'MOD63',120,22,12,0),(42,'light',10.00,'MOD63',120,23,13,0),(43,'light',10.00,'MOD63',120,23,13,0),(44,'light',10.00,'MOD63',120,23,13,0),(45,'light',10.00,'MOD63',120,23,13,0),(46,'high-explosive fragmentation',19.00,'H-5B909',122,16,10,1),(47,'high-explosive fragmentation',19.00,'H-5B909',122,15,9,0),(48,'high-explosive fragmentation',19.00,'H-5B909',122,14,8,0),(49,'high-explosive fragmentation',19.00,'H-5B909',122,13,7,0),(50,'high-explosive fragmentation',19.00,'H-5B909',122,5,4,0),(51,'high-explosive fragmentation',19.00,'H-5B909',122,5,4,0),(52,'high-explosive fragmentation',19.00,'H-5B909',122,5,4,0),(53,'high-explosive fragmentation',19.00,'H-5B909',122,5,4,0),(54,'high-explosive fragmentation',19.00,'H-5B909',122,5,4,0),(55,'high-explosive fragmentation',19.00,'H-5B909',122,5,4,0),(56,'high-explosive fragmentation',19.00,'H-5B909',122,5,4,0),(57,'high-explosive fragmentation',19.00,'H-5B909',122,5,4,0),(58,'high-explosive fragmentation',19.00,'H-5B909',122,5,4,0),(59,'high-explosive fragmentation',19.00,'H-5B909',122,5,4,0),(60,'high-explosive fragmentation',19.00,'H-5B909',122,4,3,0),(61,'high-explosive fragmentation',19.00,'H-5B909',122,4,3,0),(62,'high-explosive fragmentation',19.00,'H-5B909',122,4,3,0),(63,'high-explosive fragmentation',19.00,'H-5B909',122,4,3,0),(64,'high-explosive fragmentation',19.00,'H-5B909',122,4,3,0),(65,'high-explosive fragmentation',19.00,'H-5B909',122,4,3,0),(66,'high-explosive fragmentation',19.00,'H-5B909',122,4,3,0),(67,'high-explosive fragmentation',19.00,'H-5B909',122,4,3,0),(68,'high-explosive fragmentation',19.00,'H-5B909',122,4,3,0),(69,'high-explosive fragmentation',19.00,'H-5B909',122,4,3,0),(70,'hef',19.00,'H-5B909',122,3,2,1),(71,'hef',19.00,'H-5B909',122,3,2,1),(72,'hef',19.00,'H-5B909',122,3,2,1),(73,'high-explosive fragmentation',19.00,'H-5B909',122,3,2,0),(74,'high-explosive fragmentation',19.00,'H-5B909',122,3,2,0),(75,'high-explosive fragmentation',19.00,'H-5B909',122,3,2,0),(76,'high-explosive fragmentation',21.00,'H-D321',122,3,2,0),(77,'high-explosive fragmentation',21.00,'H-D321',122,3,2,0),(78,'high-explosive fragmentation',21.00,'H-D321',122,3,2,0),(79,'high-explosive fragmentation',21.00,'H-D321',122,3,2,0),(80,'hef',21.00,'H-D321',122,16,10,1),(81,'hef',21.00,'H-D321',122,16,10,1),(82,'hef',21.00,'H-D321',122,16,10,1),(83,'high-explosive fragmentation',21.00,'H-D321',122,16,10,1),(84,'high-explosive fragmentation',21.00,'H-D321',122,16,10,1),(85,'high-explosive fragmentation',21.00,'H-D321',122,15,9,0),(86,'high-explosive fragmentation',21.00,'H-D321',122,15,9,0),(87,'high-explosive fragmentation',21.00,'H-D321',122,15,9,0),(88,'high-explosive fragmentation',21.00,'H-D321',122,15,9,0),(89,'high-explosive fragmentation',21.00,'H-D321',122,15,9,0),(90,'high-explosive fragmentation',21.00,'H-D321',122,14,8,0),(91,'high-explosive fragmentation',21.00,'H-D321',122,14,8,0),(92,'high-explosive fragmentation',21.00,'H-D321',122,14,8,0),(93,'high-explosive fragmentation',21.00,'H-D321',122,14,8,0),(94,'high-explosive fragmentation',21.00,'H-D321',122,14,8,0),(95,'high-explosive fragmentation',21.00,'H-D321',122,13,7,0),(96,'high-explosive fragmentation',21.00,'H-D321',122,13,7,0),(97,'high-explosive fragmentation',21.00,'H-D321',122,13,7,0),(98,'high-explosive fragmentation',21.00,'H-D321',122,13,7,0),(99,'high-explosive fragmentation',21.00,'H-D321',122,13,7,0),(100,'fire',25.00,'H-S3S1',122,13,7,0),(101,'fire',25.00,'H-S3S1',122,13,7,0),(102,'fire',25.00,'H-S3S1',122,13,7,0),(103,'fire',25.00,'H-S3S1',122,5,4,0),(104,'fire',25.00,'H-S3S1',122,5,4,0),(105,'fire',25.00,'H-S3S1',122,5,4,0),(106,'fire',25.00,'H-S3S1',122,4,3,0),(107,'fire',25.00,'H-S3S1',122,4,3,0),(108,'fire',25.00,'H-S3S1',122,4,3,0),(109,'fire',25.00,'H-S3S1',122,4,3,0),(110,'fire',25.00,'H-S3S1',122,4,3,0),(111,'fire',25.00,'H-S3S1',122,3,2,0),(112,'fire',25.00,'H-S3S1',122,3,2,0),(113,'fire',25.00,'H-S3S1',122,3,2,0),(114,'fire',25.00,'H-S3S1',122,3,2,0),(115,'fire',25.00,'H-S3S1',122,3,2,0),(116,'hef',23.00,'H-933A1',152,10,6,1),(117,'hef',23.00,'H-933A1',152,10,6,1),(118,'hef',23.00,'H-933A1',152,10,6,1),(119,'hef',23.00,'H-933A1',152,10,6,1),(120,'hef',23.00,'H-933A1',152,10,6,1),(121,'high-explosive fragmentation',23.00,'H-933A1',152,10,6,0),(122,'high-explosive fragmentation',23.00,'H-933A1',152,10,6,0),(123,'high-explosive fragmentation',23.00,'H-933A1',152,10,6,0),(124,'high-explosive fragmentation',23.00,'H-933A1',152,10,6,0),(125,'high-explosive fragmentation',23.00,'H-933A1',152,10,6,0),(126,'high-explosive fragmentation',23.00,'H-933A1',152,10,6,0),(127,'high-explosive fragmentation',23.00,'H-933A1',152,10,6,0),(128,'high-explosive fragmentation',23.00,'H-933A1',152,10,6,0),(129,'high-explosive fragmentation',23.00,'H-933A1',152,10,6,0),(130,'high-explosive fragmentation',23.00,'H-933A1',152,10,6,0),(131,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(132,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(133,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(134,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(135,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(136,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(137,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(138,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(139,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(140,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(141,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(142,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(143,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(144,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(145,'high-explosive fragmentation',23.00,'H-933A1',152,9,5,0),(146,'hec',52.00,'P-02S1',203,2,1,1),(147,'hec',52.00,'P-02S1',203,2,1,1),(148,'hec',52.00,'P-02S1',203,2,1,1),(149,'hec',52.00,'P-02S1',203,2,1,1),(150,'high-explosive cumulative',52.00,'P-02S1',203,2,1,0);
 /*!40000 ALTER TABLE `ammo` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Temporary view structure for view `ammo_view`
+--
+
+DROP TABLE IF EXISTS `ammo_view`;
+/*!50001 DROP VIEW IF EXISTS `ammo_view`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `ammo_view` AS SELECT 
+ 1 AS `id`,
+ 1 AS `ammo_type`,
+ 1 AS `caliber`*/;
+SET character_set_client = @saved_cs_client;
 
 --
 -- Table structure for table `corections`
@@ -407,6 +421,24 @@ DELIMITER ;
 /*!50003 SET collation_connection  = @saved_col_connection */ ;
 
 --
+-- Final view structure for view `ammo_view`
+--
+
+/*!50001 DROP VIEW IF EXISTS `ammo_view`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `ammo_view` AS select `ammo`.`id` AS `id`,`ammo`.`ammo_type` AS `ammo_type`,`ammo`.`caliber` AS `caliber` from `ammo` */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
 -- Final view structure for view `militaryammoview`
 --
 
@@ -433,4 +465,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-07 12:20:35
+-- Dump completed on 2024-11-07 21:03:47
